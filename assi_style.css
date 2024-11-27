@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.main {
+
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/026/485/594/small_2x/back-to-school-background-with-copy-space-photo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+
+    width: 1200px;
+    height: 72px;
+    margin: 0px;
+    
+}
+.logo {
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+.menu{
+
+    width: 300px;
+    height: 70px;
+    float: left;
+}
+
+ul{
+
+display: flex ;
+padding-top: 0%;
+justify-content:right ;
+align-items:center ;
+    
+ 
+}
+ul li{
+
+    list-style: none;
+    margin-left: 100px ;
+    font-size: 20px;
+
+}
+ul li a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+
+.con{
+
+    width: 1200px;
+    height: auto;
+    position: relative;
+    padding-top: 80px;
+}
+
+.con .para {
+
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-family:Arial;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    
+}
+.con h1{
+     
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 75px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+
+.con .button{
+    width: 160px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-style: bold;
+    
+}
+.form{
+    width: 250px;
+    height: 170px;
+    background-color: rgb(224, 224, 233);
+    border: blue;
+    position: absolute;
+    top: 250px;
+    left: 950px;
+    border-radius: 10px;
+
+}
+.form{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
